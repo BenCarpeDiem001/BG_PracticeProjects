@@ -1,0 +1,22 @@
+# Ignore compiled Python bytecode
+*.pyc
+__pycache__/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# ignore Model files
+*.pt
+
+# Ignore Folders
+CIFAR10_dataset/
+MNIST_dataset/
+runs/
